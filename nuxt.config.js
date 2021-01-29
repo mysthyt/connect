@@ -12,7 +12,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/connect/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/test/favicon.ico' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -51,11 +51,11 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend(config, ctx) {
-      config.output.publicPath = '/connect/_nuxt/'
+      config.output.publicPath = '/test/_nuxt/'
     },
   },
 
   router: {
-    base: '/connect/',
+    base: '/test/',
   },
 }

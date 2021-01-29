@@ -1039,10 +1039,10 @@ export default {
       .to('#js-students', 0.2, { backgroundColor: '#111e3c' })
       .to('#js-students .maru-p', 0.2, { opacity: 0 })
       .to('#js-students .circle', 0.3, { opacity: 0 })
-      .to('.students-content', 0.05, { opacity: 1, scale: 1 })
+      .to('.students-content', 0.05, { display: 'block', scale: 1 })
       .to('#js-students', 0.2, { opacity: 1 })
       .staggerTo('.students_item', 0.2, { display: 'block' })
-      .staggerTo('#js-students', 0.2, { height: 'auto' }, '-=0.5')
+      .staggerTo('#js-students', 1.3, { height: 'auto' })
     // scrollmagic
     new this.$scrollmagic.Scene({
       triggerElement: '#js-students',
