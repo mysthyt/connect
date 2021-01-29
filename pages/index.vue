@@ -489,7 +489,9 @@
           <div class="sec2_inner -students">
             <div class="students-content">
               <div class="heading-wrapper">
-                <h2 class="heading -lv2 -color-gradient4">今年度の学生たち</h2>
+                <h2 class="heading -lv2 -color-gradient4">
+                  {{ studentsData.length }}名の学生たち
+                </h2>
               </div>
               <ul class="students_list">
                 <li
@@ -497,15 +499,27 @@
                   :key="idx_student"
                   class="students_item"
                 >
-                  <button @click="openModal(idx_student)">
-                    <img
-                      :src="
-                        require('~/assets/images/students/student_' +
-                          studentData.id +
-                          '.jpg')
-                      "
-                      alt=""
-                    />
+                  <button class="flip" @click="openModal(idx_student)">
+                    <div class="flip-inner">
+                      <div class="flip-front">
+                        <img
+                          :src="
+                            require('~/assets/images/students/student_' +
+                              studentData.id +
+                              '.jpg')
+                          "
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="flip-back pc"
+                        :class="`grade${studentData.grade}`"
+                      >
+                        <p>{{ studentData.grade }}年生</p>
+                        <p>{{ studentData.name }}</p>
+                        <p>私は{{ studentData.workTitle.slice(0, 10) }}で…</p>
+                      </div>
+                    </div>
                   </button>
                 </li>
               </ul>
@@ -590,6 +604,30 @@
                         v-if="!(currentModalNum === 0)"
                         @click="prevModal()"
                       >
+                        前の学生
+                      </button>
+                      <button
+                        v-else-if="currentModalNum === 0"
+                        @click="prevModal()"
+                      >
+                        前の学生
+                      </button>
+                      <button
+                        v-if="!(currentModalNum === studentsData.length - 1)"
+                        @click="nextModal()"
+                      >
+                        次の学生
+                      </button>
+                      <button
+                        v-else-if="currentModalNum === studentsData.length - 1"
+                        @click="nextModal()"
+                      >
+                        次の学生
+                      </button>
+                      <!-- <button
+                        v-if="!(currentModalNum === 0)"
+                        @click="prevModal()"
+                      >
                         {{ studentsData[currentModalNum - 1].name }}
                       </button>
                       <button
@@ -609,7 +647,7 @@
                         @click="nextModal()"
                       >
                         {{ studentsData[0].name }}
-                      </button>
+                      </button> -->
                     </div>
                   </div>
                 </div>
@@ -972,6 +1010,15 @@ export default {
     // this.getTargetWidth()
     // window.addEventListener('resize', this.getTargetWidth)
 
+    // shuffle : studentsData
+    studentsData.sort(function (a, b) {
+      return Math.random() * 2 - 1
+    })
+
+    // for (let i = 0; i < studentsData.length; i++) {
+    //   document.querySelectorAll('.flip-back')[i].slice(0, 20)
+    // }
+
     // options : IntersectionObserver
     const options1 = {
       root: null,
@@ -1182,6 +1229,11 @@ export default {
         this.currentModalNum = studentsData.length - 1
       }
       document.querySelector('.modal-content').scrollTo(0, 0)
+      document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
+      document.querySelector('.modal-content').classList.add('prev')
+      setTimeout(() => {
+        document.querySelector('.modal-content').classList.remove('prev')
+      }, 1200)
     },
     nextModal() {
       if (!(this.currentModalNum === studentsData.length - 1)) {
@@ -1190,7 +1242,15 @@ export default {
         this.currentModalNum = 0
       }
       document.querySelector('.modal-content').scrollTo(0, 0)
+      document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
+      document.querySelector('.modal-content').classList.add('next')
+      setTimeout(() => {
+        document.querySelector('.modal-content').classList.remove('next')
+      }, 1200)
     },
+    // shuffle() {
+    //   this.studentsData = this.studentsData.shuffle(this.studentData)
+    // }
   },
 }
 </script>

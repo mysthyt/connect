@@ -20,6 +20,7 @@ export default {
     // SCSS file in the project
     '~/assets/css/setting.scss',
     '~/assets/css/style.scss',
+    '~/assets/css/hover.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
