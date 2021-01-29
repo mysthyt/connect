@@ -1067,387 +1067,707 @@ li {
 }
 
 .students-content .students_list .students_item.show:nth-child(1) {
-  animation: test 0.4s ease 0.85s 1 backwards;
-  -weblit-animation: test 0.4s ease 0.85s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(1) {
+    animation: test 0.4s ease 0.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 0.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(2) {
-  animation: test 0.4s ease 0.9s 1 backwards;
-  -weblit-animation: test 0.4s ease 0.9s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(2) {
+    animation: test 0.4s ease 1s 1 backwards;
+    -weblit-animation: test 0.4s ease 1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(3) {
-  animation: test 0.4s ease 0.95s 1 backwards;
-  -weblit-animation: test 0.4s ease 0.95s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(3) {
+    animation: test 0.4s ease 1.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(4) {
-  animation: test 0.4s ease 1s 1 backwards;
-  -weblit-animation: test 0.4s ease 1s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(4) {
+    animation: test 0.4s ease 1.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(5) {
-  animation: test 0.4s ease 1.05s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.05s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(5) {
+    animation: test 0.4s ease 1.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(6) {
-  animation: test 0.4s ease 1.1s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.1s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(6) {
+    animation: test 0.4s ease 1.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(7) {
-  animation: test 0.4s ease 1.15s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.15s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(7) {
+    animation: test 0.4s ease 1.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(8) {
-  animation: test 0.4s ease 1.2s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.2s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(8) {
+    animation: test 0.4s ease 1.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(9) {
-  animation: test 0.4s ease 1.25s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.25s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(9) {
+    animation: test 0.4s ease 1.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(10) {
-  animation: test 0.4s ease 1.3s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.3s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(10) {
+    animation: test 0.4s ease 1.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(11) {
-  animation: test 0.4s ease 1.35s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.35s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(11) {
+    animation: test 0.4s ease 1.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 1.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(12) {
-  animation: test 0.4s ease 1.4s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.4s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(12) {
+    animation: test 0.4s ease 2s 1 backwards;
+    -weblit-animation: test 0.4s ease 2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(13) {
-  animation: test 0.4s ease 1.45s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.45s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(13) {
+    animation: test 0.4s ease 2.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(14) {
-  animation: test 0.4s ease 1.5s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.5s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(14) {
+    animation: test 0.4s ease 2.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(15) {
-  animation: test 0.4s ease 1.55s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.55s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(15) {
+    animation: test 0.4s ease 2.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(16) {
-  animation: test 0.4s ease 1.6s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.6s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(16) {
+    animation: test 0.4s ease 2.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(17) {
-  animation: test 0.4s ease 1.65s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.65s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(17) {
+    animation: test 0.4s ease 2.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(18) {
-  animation: test 0.4s ease 1.7s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.7s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(18) {
+    animation: test 0.4s ease 2.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(19) {
-  animation: test 0.4s ease 1.75s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.75s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(19) {
+    animation: test 0.4s ease 2.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(20) {
-  animation: test 0.4s ease 1.8s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.8s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(20) {
+    animation: test 0.4s ease 2.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(21) {
-  animation: test 0.4s ease 1.85s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.85s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(21) {
+    animation: test 0.4s ease 2.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 2.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(22) {
-  animation: test 0.4s ease 1.9s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.9s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(22) {
+    animation: test 0.4s ease 3s 1 backwards;
+    -weblit-animation: test 0.4s ease 3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(23) {
-  animation: test 0.4s ease 1.95s 1 backwards;
-  -weblit-animation: test 0.4s ease 1.95s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(23) {
+    animation: test 0.4s ease 3.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(24) {
-  animation: test 0.4s ease 2s 1 backwards;
-  -weblit-animation: test 0.4s ease 2s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(24) {
+    animation: test 0.4s ease 3.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(25) {
-  animation: test 0.4s ease 2.05s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.05s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(25) {
+    animation: test 0.4s ease 3.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(26) {
-  animation: test 0.4s ease 2.1s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.1s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(26) {
+    animation: test 0.4s ease 3.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(27) {
-  animation: test 0.4s ease 2.15s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.15s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(27) {
+    animation: test 0.4s ease 3.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(28) {
-  animation: test 0.4s ease 2.2s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.2s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(28) {
+    animation: test 0.4s ease 3.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(29) {
-  animation: test 0.4s ease 2.25s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.25s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(29) {
+    animation: test 0.4s ease 3.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(30) {
-  animation: test 0.4s ease 2.3s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.3s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(30) {
+    animation: test 0.4s ease 3.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(31) {
-  animation: test 0.4s ease 2.35s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.35s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(31) {
+    animation: test 0.4s ease 3.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 3.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(32) {
-  animation: test 0.4s ease 2.4s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.4s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(32) {
+    animation: test 0.4s ease 4s 1 backwards;
+    -weblit-animation: test 0.4s ease 4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(33) {
-  animation: test 0.4s ease 2.45s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.45s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(33) {
+    animation: test 0.4s ease 4.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(34) {
-  animation: test 0.4s ease 2.5s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.5s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(34) {
+    animation: test 0.4s ease 4.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(35) {
-  animation: test 0.4s ease 2.55s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.55s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(35) {
+    animation: test 0.4s ease 4.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(36) {
-  animation: test 0.4s ease 2.6s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.6s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(36) {
+    animation: test 0.4s ease 4.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(37) {
-  animation: test 0.4s ease 2.65s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.65s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(37) {
+    animation: test 0.4s ease 4.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(38) {
-  animation: test 0.4s ease 2.7s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.7s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(38) {
+    animation: test 0.4s ease 4.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(39) {
-  animation: test 0.4s ease 2.75s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.75s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(39) {
+    animation: test 0.4s ease 4.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(40) {
-  animation: test 0.4s ease 2.8s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.8s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(40) {
+    animation: test 0.4s ease 4.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(41) {
-  animation: test 0.4s ease 2.85s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.85s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(41) {
+    animation: test 0.4s ease 4.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 4.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(42) {
-  animation: test 0.4s ease 2.9s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.9s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(42) {
+    animation: test 0.4s ease 5s 1 backwards;
+    -weblit-animation: test 0.4s ease 5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(43) {
-  animation: test 0.4s ease 2.95s 1 backwards;
-  -weblit-animation: test 0.4s ease 2.95s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(43) {
+    animation: test 0.4s ease 5.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(44) {
-  animation: test 0.4s ease 3s 1 backwards;
-  -weblit-animation: test 0.4s ease 3s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(44) {
+    animation: test 0.4s ease 5.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(45) {
-  animation: test 0.4s ease 3.05s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.05s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(45) {
+    animation: test 0.4s ease 5.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(46) {
-  animation: test 0.4s ease 3.1s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.1s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(46) {
+    animation: test 0.4s ease 5.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(47) {
-  animation: test 0.4s ease 3.15s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.15s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(47) {
+    animation: test 0.4s ease 5.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(48) {
-  animation: test 0.4s ease 3.2s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.2s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(48) {
+    animation: test 0.4s ease 5.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(49) {
-  animation: test 0.4s ease 3.25s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.25s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(49) {
+    animation: test 0.4s ease 5.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(50) {
-  animation: test 0.4s ease 3.3s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.3s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(50) {
+    animation: test 0.4s ease 5.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(51) {
-  animation: test 0.4s ease 3.35s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.35s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(51) {
+    animation: test 0.4s ease 5.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 5.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(52) {
-  animation: test 0.4s ease 3.4s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.4s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(52) {
+    animation: test 0.4s ease 6s 1 backwards;
+    -weblit-animation: test 0.4s ease 6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(53) {
-  animation: test 0.4s ease 3.45s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.45s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(53) {
+    animation: test 0.4s ease 6.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.1s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(54) {
-  animation: test 0.4s ease 3.5s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.5s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(54) {
+    animation: test 0.4s ease 6.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.2s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(55) {
-  animation: test 0.4s ease 3.55s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.55s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(55) {
+    animation: test 0.4s ease 6.3s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.3s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(56) {
-  animation: test 0.4s ease 3.6s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.6s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(56) {
+    animation: test 0.4s ease 6.4s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.4s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(57) {
-  animation: test 0.4s ease 3.65s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.65s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(57) {
+    animation: test 0.4s ease 6.5s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.5s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(58) {
-  animation: test 0.4s ease 3.7s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.7s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(58) {
+    animation: test 0.4s ease 6.6s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.6s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(59) {
-  animation: test 0.4s ease 3.75s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.75s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(59) {
+    animation: test 0.4s ease 6.7s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(60) {
-  animation: test 0.4s ease 3.8s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.8s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(60) {
+    animation: test 0.4s ease 6.8s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.8s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(61) {
-  animation: test 0.4s ease 3.85s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.85s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(61) {
+    animation: test 0.4s ease 6.9s 1 backwards;
+    -weblit-animation: test 0.4s ease 6.9s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(62) {
-  animation: test 0.4s ease 3.9s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.9s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(62) {
+    animation: test 0.4s ease 7s 1 backwards;
+    -weblit-animation: test 0.4s ease 7s 1 backwards;
+  }
 }
 
 .students-content .students_list .students_item.show:nth-child(63) {
-  animation: test 0.4s ease 3.95s 1 backwards;
-  -weblit-animation: test 0.4s ease 3.95s 1 backwards;
   opacity: 1;
 }
 
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(63) {
+    animation: test 0.4s ease 7.1s 1 backwards;
+    -weblit-animation: test 0.4s ease 7.1s 1 backwards;
+  }
+}
+
 .students-content .students_list .students_item.show:nth-child(64) {
-  animation: test 0.4s ease 4s 1 backwards;
-  -weblit-animation: test 0.4s ease 4s 1 backwards;
   opacity: 1;
+}
+
+@media screen and (min-width: 900px) {
+  .students-content .students_list .students_item.show:nth-child(64) {
+    animation: test 0.4s ease 7.2s 1 backwards;
+    -weblit-animation: test 0.4s ease 7.2s 1 backwards;
+  }
 }
 
 .students-content .students_list img {
@@ -1509,7 +1829,7 @@ li {
   width: 100%;
   height: 100vh;
   background: #111e3c;
-  padding: 6rem 4rem;
+  padding: 11.4rem 4rem;
 }
 
 .modal .modal-content p,
