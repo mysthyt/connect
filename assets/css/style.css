@@ -2798,7 +2798,7 @@ li {
   .students-content .students_list .students_item button .flip-inner .flip-back.grade1 p:nth-of-type(1) {
     background-color: #dd8800;
   }
-  .students-content .students_list .students_item button .flip-inner .flip-back.grade2 p:nth-of-type(1) {
+  .students-content .students_list .students_item button .flip-inner .flip-back.grade2 p:nth-of-type(1), .students-content .students_list .students_item button .flip-inner .flip-back.grade3 p:nth-of-type(1) {
     background-color: #018fd0;
   }
   .students-content .students_list .students_item button .flip-inner .flip-back p {

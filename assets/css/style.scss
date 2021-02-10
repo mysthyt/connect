@@ -2007,7 +2007,8 @@ li {
                   }
                 }
               }
-              &.grade2 {
+              &.grade2,
+              &.grade3 {
                 p {
                   &:nth-of-type(1) {
                     background-color: #018fd0;

@@ -20,33 +20,45 @@
   display: flex;
   width: 100vw;
   height: 6rem;
+  margin: 0 0 0.6rem 0;
+  @media screen and (max-width: 899px) {
+    &:nth-of-type(2) {
+      position: relative;
+      right: 10rem;
+    }
+    &:nth-of-type(3) {
+      position: relative;
+      right: 12rem;
+    }
+  }
   @media screen and (min-width: 900px) {
     height: 8rem;
   }
-  // overflow: hidden;
   img {
     width: auto;
     height: 100%;
   }
-  &.-type1 {
-    img {
-      padding: 0 3rem 0 0;
-      &:first-child {
-        animation: loop1-1 180s -90s linear infinite;
-      }
-      &:last-child {
-        animation: loop1-2 180s linear infinite;
+  @media screen and (min-width: 900px) {
+    &.-type1 {
+      img {
+        padding: 0 3rem 0 0;
+        &:first-child {
+          animation: loop1-1 180s -90s linear infinite;
+        }
+        &:last-child {
+          animation: loop1-2 180s linear infinite;
+        }
       }
     }
-  }
-  &.-type2 {
-    img {
-      padding: 0 3rem 0 0;
-      &:first-child {
-        animation: loop2-1 180s -90s linear infinite;
-      }
-      &:last-child {
-        animation: loop2-2 180s linear infinite;
+    &.-type2 {
+      img {
+        padding: 0 3rem 0 0;
+        &:first-child {
+          animation: loop2-1 180s -90s linear infinite;
+        }
+        &:last-child {
+          animation: loop2-2 180s linear infinite;
+        }
       }
     }
   }

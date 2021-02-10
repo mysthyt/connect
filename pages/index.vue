@@ -604,25 +604,25 @@
                         v-if="!(currentModalNum === 0)"
                         @click="prevModal()"
                       >
-                        前の学生
+                        前の学生へ
                       </button>
                       <button
                         v-else-if="currentModalNum === 0"
                         @click="prevModal()"
                       >
-                        前の学生
+                        前の学生へ
                       </button>
                       <button
                         v-if="!(currentModalNum === studentsData.length - 1)"
                         @click="nextModal()"
                       >
-                        次の学生
+                        次の学生へ
                       </button>
                       <button
                         v-else-if="currentModalNum === studentsData.length - 1"
                         @click="nextModal()"
                       >
-                        次の学生
+                        次の学生へ
                       </button>
                       <!-- <button
                         v-if="!(currentModalNum === 0)"
@@ -680,7 +680,7 @@
             <li class="video_item">
               <iframe
                 class="youtube"
-                src="https://www.youtube.com/embed/qWboe6JXLI4"
+                src="https://www.youtube.com/embed/HySm5H1s4Yc"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -690,12 +690,22 @@
             <li class="video_item">
               <iframe
                 class="youtube"
-                src="https://www.youtube.com/embed/KyPbUrFVbLg"
+                src="https://www.youtube.com/embed/D0qS78pVIOY"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
               <p>準備編：卒業制作</p>
+            </li>
+            <li class="video_item">
+              <iframe
+                class="youtube"
+                src="https://www.youtube.com/embed/s4jp5YzgWGk"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>当日編：表彰式の様子</p>
             </li>
             <li class="video_item">
               <img
@@ -704,14 +714,6 @@
                 alt="2月10日（水）公開予定"
               />
               <p>当日編：初日の様子</p>
-            </li>
-            <li class="video_item">
-              <img
-                class="youtube"
-                src="~/assets/images/youtube_0211.png"
-                alt="2月11日（木）公開予定"
-              />
-              <p>当日編：表彰式の様子</p>
             </li>
             <li class="video_item">
               <img
@@ -936,7 +938,7 @@ export default {
           readMoreActivated: false,
           readMoreText: 'もっと見る',
           comment:
-            '今年度のWebデザイン科卒業制作展2020のテーマは「Co-Growing+　－未来を創る－」です。「Co-Growing+」の「Co」には、今年度のWebデザイン科の学生たちがデザインを生み出すために大切してきた意味が込められています。昨今、Co-creation ・Co-design・Co-production・Co-Empathy・・等々、さまざまな文脈でCo-（共に）という単語を多く耳にしますが、「共に」「一緒に」「仲間」という意味の「Co」を大切にしながら、課題解決に取り組んできました。ユーザーと一緒に課題と向き合いながら価値を生み出すことの大切さをベースにものづくりに励み、時に、産学連携授業やプロジェクトなどのチーム制作を通して、チームメンバーと同じテーマを共有し、議論できる関係性をつくる。さらに、自分の技術やスキルだけでは価値を生み出すことができない未熟なところを、仲間や後輩、先輩、先生と一緒に励みつつ、卒業生や企業様に評価やアドバイスをいただきながら、他者と連携、協力しながらものづくりに取り組んできました。まさに、Co-の関係性を築きながら、よりよい社会を創ることを目標に掲げて学んできました。その発表の場となるのが『進級＆卒業制作展CONNECT2020』です。オリンピック・パラリンピック開催の期待を胸に始まった2020年は、コロナ禍による大きな社会変動のうねりの年に様変わりしています。日本の経済はどう推移し、ビジネスの在り方や働き方、学び方はどう変化していくのか？様々な変化に対応しながら、私たちの未来を考え、その社会で暮らす人にとって、新たな魅力ある社会を創るためにはどうしたらよいか？を考え、学び続けるWebデザイン科67名の学生たち。急激な学びの環境の変化の中で、互いに励まし高め合いながら努力を重ね、気持ちを込めて制作した作品が展示されております。未熟な点もあるかと思いますが、それぞれの作品から次なる挑戦に向けて動き出そうとする学生たちの「Growing(成長)」を感じ取っていいただければ幸いです。新型コロナウイルスの感染拡大が憂慮される中においても、感染防止対策を徹底しながら、2020年度の進級・卒業制作展を開催することを決定いたしました。対面型の実施の際には、ぜひ会場に足をお運びいただき、ぜひご高覧賜りますようお願い申し上げます。厳しい難しい状況の中で学生をご支援いただいた保護者様や地域や自治体、企業、卒業生の皆さんに厚く御礼を申し上げます。',
+            '今年度のWebデザイン科卒業制作展2020のテーマは「Co-Growing+　－未来を創る－」です。「Co-Growing+」の「Co」には、今年度のWebデザイン科の学生たちがデザインを生み出すために大切してきた意味が込められています。昨今、Co-creation ・Co-design・Co-production・Co-Empathy・・等々、さまざまな文脈でCo-（共に）という単語を多く耳にしますが、「共に」「一緒に」「仲間」という意味の「Co」を大切にしながら、課題解決に取り組んできました。ユーザーと一緒に課題と向き合いながら価値を生み出すことの大切さをベースにものづくりに励み、時に、産学連携授業やプロジェクトなどのチーム制作を通して、チームメンバーと同じテーマを共有し、議論できる関係性をつくる。さらに、自分の技術やスキルだけでは価値を生み出すことができない未熟なところを、仲間や後輩、先輩、先生と一緒に励みつつ、卒業生や企業様に評価やアドバイスをいただきながら、他者と連携、協力しながらものづくりに取り組んできました。まさに、Co-の関係性を築きながら、よりよい社会を創ることを目標に掲げて学んできました。その発表の場となるのが『進級＆卒業制作展CONNECT2020』です。\nオリンピック・パラリンピック開催の期待を胸に始まった2020年は、コロナ禍による大きな社会変動のうねりの年に様変わりしています。日本の経済はどう推移し、ビジネスの在り方や働き方、学び方はどう変化していくのか？様々な変化に対応しながら、私たちの未来を考え、その社会で暮らす人にとって、新たな魅力ある社会を創るためにはどうしたらよいか？を考え、学び続けるWebデザイン科67名の学生たち。\n急激な学びの環境の変化の中で、互いに励まし高め合いながら努力を重ね、気持ちを込めて制作した作品が展示されております。未熟な点もあるかと思いますが、それぞれの作品から次なる挑戦に向けて動き出そうとする学生たちの「Growing(成長)」を感じ取っていいただければ幸いです。\n新型コロナウイルスの感染拡大が憂慮される中においても、感染防止対策を徹底しながら、2020年度の進級・卒業制作展を開催することを決定いたしました。対面型の実施の際には、ぜひ会場に足をお運びいただき、ぜひご高覧賜りますようお願い申し上げます。厳しい難しい状況の中で学生をご支援いただいた保護者様や地域や自治体、企業、卒業生の皆さんに厚く御礼を申し上げます。',
         },
         {
           name: '関根 慎二',
@@ -1015,10 +1017,6 @@ export default {
       return Math.random() * 2 - 1
     })
 
-    // for (let i = 0; i < studentsData.length; i++) {
-    //   document.querySelectorAll('.flip-back')[i].slice(0, 20)
-    // }
-
     // options : IntersectionObserver
     const options1 = {
       root: null,
@@ -1089,7 +1087,7 @@ export default {
       .to('.students-content', 0.05, { display: 'block', scale: 1 })
       .to('#js-students', 0.2, { opacity: 1 })
       .staggerTo('.students_item', 0.2, { display: 'block' })
-      .staggerTo('#js-students', 1.3, { height: 'auto' })
+      .staggerTo('#js-students', 0.7, { height: 'auto' })
     // scrollmagic
     new this.$scrollmagic.Scene({
       triggerElement: '#js-students',
@@ -1221,36 +1219,38 @@ export default {
       document.body.style.top = ''
       window.scrollTo(0, this.scrollPosition || 0 * -1)
       document.querySelector('.modal-content').scrollTo(0, 0)
+      document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
     },
     prevModal() {
-      if (!(this.currentModalNum === 0)) {
-        this.currentModalNum--
-      } else {
-        this.currentModalNum = studentsData.length - 1
-      }
-      document.querySelector('.modal-content').scrollTo(0, 0)
-      document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
       document.querySelector('.modal-content').classList.add('prev')
+      setTimeout(() => {
+        if (!(this.currentModalNum === 0)) {
+          this.currentModalNum--
+        } else {
+          this.currentModalNum = studentsData.length - 1
+        }
+        document.querySelector('.modal-content').scrollTo(0, 0)
+        document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
+      }, 600)
       setTimeout(() => {
         document.querySelector('.modal-content').classList.remove('prev')
       }, 1200)
     },
     nextModal() {
-      if (!(this.currentModalNum === studentsData.length - 1)) {
-        this.currentModalNum++
-      } else {
-        this.currentModalNum = 0
-      }
-      document.querySelector('.modal-content').scrollTo(0, 0)
-      document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
       document.querySelector('.modal-content').classList.add('next')
+      setTimeout(() => {
+        if (!(this.currentModalNum === studentsData.length - 1)) {
+          this.currentModalNum++
+        } else {
+          this.currentModalNum = 0
+        }
+        document.querySelector('.modal-content').scrollTo(0, 0)
+        document.querySelector('.modal-content .modal-left').scrollTo(0, 0)
+      }, 600)
       setTimeout(() => {
         document.querySelector('.modal-content').classList.remove('next')
       }, 1200)
     },
-    // shuffle() {
-    //   this.studentsData = this.studentsData.shuffle(this.studentData)
-    // }
   },
 }
 </script>
