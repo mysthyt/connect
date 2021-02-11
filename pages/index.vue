@@ -708,11 +708,13 @@
               <p>当日編：表彰式の様子</p>
             </li>
             <li class="video_item">
-              <img
+              <iframe
                 class="youtube"
-                src="~/assets/images/youtube_0210.png"
-                alt="2月10日（水）公開予定"
-              />
+                src="https://www.youtube.com/embed/P276tggrmzE"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
               <p>当日編：初日の様子</p>
             </li>
             <li class="video_item">
