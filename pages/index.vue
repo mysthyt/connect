@@ -1043,17 +1043,17 @@ export default {
     const kvTween = kvTl
       .add([
         this.$gsap.TweenMax.to('#kv .kv-right', 1, { x: '+100%' }),
-        this.$gsap.TweenMax.to('#kv .kv-left', 1, { x: '-100%', delay: 0.1 }), // delay でちょっと遅らす
+        this.$gsap.TweenMax.to('#kv .kv-left', 1, { x: '-100%', delay: 0.1 }),
         this.$gsap.TweenMax.to('#kv .lines', 1, { opacity: 0 }),
       ])
-      .to('#kv .kv-welcome', 1, { opacity: 1 }, '-=0.9') // '-=0.9'でちょっと早めに始まる
-      .to('#kv .kv-welcome', 0.2, { opacity: 1 }) // すぐスクロールしないように間（ま）
+      .to('#kv .kv-welcome', 1, { opacity: 1 }, '-=0.9')
+      .to('#kv .kv-welcome', 0.2, { opacity: 1 })
       .to('#kv .kv-welcome img', 1, { scale: 1.2, force3D: false })
     // scrollmagic
     new this.$scrollmagic.Scene({
       triggerElement: '#kv',
       duration: '280%',
-      triggerHook: 'onLeave', // start位置 : onEnter, onCenter, onLeave, 初期値onCenter
+      triggerHook: 'onLeave', 
     })
       .setPin('#kv')
       .setTween(kvTween)
